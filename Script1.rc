@@ -1,0 +1,402 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+APP_ICON                ICON                    "icon1.ico"
+ICO_UP                  ICON                    "ico00002.ico"
+ICO_DOWN                ICON                    "ico_down.ico"
+ICO_RIGHT               ICON                    "ico_right.ico"
+ICO_LEFT                ICON                    "ico_left.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_MAIN DIALOGEX 0, 0, 408, 297
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION " CBFG v1.45"
+MENU MNU_MAIN
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "X",IDC_STATIC,356,19,7,8
+    CONTROL         "",IMG_TEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,7,7,256,220
+    COMBOBOX        CBO_FONTS,10,250,130,65,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Bold",CHK_BOLD,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_LEFT | WS_TABSTOP,10,266,30,8
+    CONTROL         "Italic",CHK_ITAL,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_LEFT | WS_TABSTOP,10,277,30,8
+    EDITTEXT        TXT_START,100,269,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_START,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,133,270,11,10
+    EDITTEXT        TXT_FONTHEIGHT,188,250,34,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_FONTHEIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,217,251,11,13
+    EDITTEXT        TXT_FONTWIDTH,188,269,34,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_FONTWIDTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,217,268,11,12
+    CONTROL         "",ODR_FORECOL,"Static",SS_OWNERDRAW | SS_NOTIFY | WS_BORDER,232,262,18,18
+    CONTROL         "",ODR_BACKCOL,"Static",SS_OWNERDRAW | SS_NOTIFY | WS_BORDER,252,262,18,18
+    COMBOBOX        CBO_IMGXRES,321,16,35,72,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        CBO_IMGYRES,362,16,35,72,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        TXT_CELLHEIGHT,321,32,75,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_CELLHEIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,390,33,11,13
+    EDITTEXT        TXT_CELLWIDTH,321,48,75,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_CELLWIDTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,390,48,11,12
+    COMBOBOX        CBO_ALIAS,284,74,112,54,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        CBO_ZOOM,284,116,41,60,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Show Grid",CHK_GRID,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,337,109,55,10
+    CONTROL         "Show Widths",CHK_WIDTH,"Button",BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,337,120,56,10
+    CONTROL         "Adjust All",RAD_ALL,"Button",BS_AUTORADIOBUTTON,290,151,46,10
+    CONTROL         "Adjust Selection Only",RAD_SEL,"Button",BS_AUTORADIOBUTTON,290,161,104,10
+    EDITTEXT        TXT_XADJ,300,193,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        TXT_YADJ,300,209,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Up",CMD_LEFT,335,204,19,18,BS_ICON
+    PUSHBUTTON      "Up",CMD_UP,355,193,19,18,BS_ICON
+    PUSHBUTTON      "Up",CMD_RIGHT,375,204,19,18,BS_ICON
+    PUSHBUTTON      "Up",CMD_DOWN,355,217,19,18,BS_ICON
+    EDITTEXT        TXT_WADJ,345,250,50,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_WIDTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,390,250,13,10
+    EDITTEXT        TXT_WIDTH,345,269,49,12,ES_AUTOHSCROLL | ES_NUMBER
+    SCROLLBAR       SCR_HOR,7,227,256,9
+    GROUPBOX        "Texture Details",IDC_STATIC,279,7,122,87
+    GROUPBOX        "Font Details",IDC_STATIC,5,240,270,50
+    LTEXT           "Cell Width",IDC_STATIC,284,49,34,10
+    LTEXT           "Cell Height",IDC_STATIC,284,34,36,10
+    RTEXT           "Image Size",IDC_STATIC,282,18,36,10
+    LTEXT           "Font Height",IDC_STATIC,148,251,38,10
+    LTEXT           "Font Width",IDC_STATIC,148,270,37,10
+    SCROLLBAR       SCR_VERT,263,7,10,220,SBS_VERT
+    LTEXT           "Anti-Aliasing",IDC_STATIC,284,64,40,10
+    GROUPBOX        "View Options",IDC_STATIC,280,96,120,40
+    LTEXT           "Zoom",IDC_STATIC,284,106,20,10
+    GROUPBOX        "Adjust",IDC_STATIC,280,137,120,153
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN | WS_BORDER,5,5,270,233
+    RTEXT           "X",IDC_STATIC,285,193,10,10
+    RTEXT           "Y",IDC_STATIC,285,209,10,10
+    LTEXT           "Effective Width",STA_WIDTH,290,270,55,10
+    LTEXT           "Width Modifier",IDC_STATIC,290,251,50,10
+    LTEXT           "Width",IDC_STATIC,285,239,30,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN | WS_BORDER,305,243,90,2,WS_EX_CLIENTEDGE
+    LTEXT           "Position",IDC_STATIC,285,178,30,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN | WS_BORDER,311,183,84,2,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN | WS_BORDER,305,243,90,2,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN | WS_BORDER,305,243,90,2,WS_EX_CLIENTEDGE
+    LTEXT           "Start Character",IDC_STATIC,48,270,52,11
+    CTEXT           "Colour",IDC_STATIC,232,250,37,10
+END
+
+DLG_ABOUT DIALOGEX 0, 0, 344, 274
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "About Codehead's Bitmap Font Generator"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,245,50,14
+    CONTROL         117,IDC_STATIC,"Static",SS_BITMAP | WS_BORDER,20,11,304,105,WS_EX_CLIENTEDGE
+    LTEXT           "Codehead - Dec 2015",IDC_STATIC,25,118,122,10
+    RTEXT           "Github Release - v1.45",IDC_STATIC,234,118,84,13
+    CTEXT           "A tool for creating bitmapped fonts for use in graphical applications",IDC_STATIC,22,132,301,10
+    LISTBOX         LST_CREDITS,24,148,296,86,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+DLG_SAVEOPT DIALOGEX 0, 0, 129, 111
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Save Format Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "GreyScale (8 Bit)",CMD_SAVEOPT_8,"Button",BS_AUTORADIOBUTTON,10,7,69,10
+    CONTROL         "24 Bit Colour (RGB)",CMD_SAVEOPT_24,"Button",BS_AUTORADIOBUTTON,10,19,77,10
+    CONTROL         "32 Bit Colour (RGBA)",CMD_SAVEOPT_32,"Button",BS_AUTORADIOBUTTON,10,31,82,10
+    CONTROL         "Saturate RGB Channels",CHK_SAVEOPT_SATURATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,56,91,10
+    CONTROL         "Invert Alpha Channel",CHK_SAVEOPT_INVERT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,68,91,10
+    DEFPUSHBUTTON   "OK",IDOK,7,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,72,90,50,14
+    GROUPBOX        "Image Adjustments",IDC_STATIC,9,44,110,40
+END
+
+DLG_CONFIG DIALOGEX 0, 0, 218, 191
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Configuration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        CBO_CFG_ITEM,42,17,82,65,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",SLD_RED,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,37,33,90,11
+    CONTROL         "",SLD_GREEN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,37,46,90,11
+    CONTROL         "",SLD_BLUE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,37,59,90,11
+    EDITTEXT        TXT_RED,131,33,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        TXT_GREEN,131,46,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        TXT_BLUE,131,59,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        CBO_CFG_IMGXSIZE,15,106,42,78,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Show Gridlines",CHK_CFG_GRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,123,62,10
+    CONTROL         "Show Width Markers",CHK_CFG_WIDTH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,137,81,10
+    EDITTEXT        TXT_CFG_CELLHEIGHT,160,95,42,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_CFG_CELLHEIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,200,95,11,12
+    EDITTEXT        TXT_CFG_CELLWIDTH,160,108,42,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_CFG_CELLWIDTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,200,108,11,12
+    EDITTEXT        TXT_CFG_FONTHEIGHT,160,122,42,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_CFG_FONTHEIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,200,122,11,12
+    EDITTEXT        TXT_CFG_FONTWIDTH,160,136,42,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",SPN_CFG_FONTWIDTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,200,136,11,12
+    PUSHBUTTON      "OK",ID_OK,39,170,40,14
+    PUSHBUTTON      "Save",IDSAVE,83,170,40,14
+    PUSHBUTTON      "Default",IDDEFAULT,127,170,40,14
+    PUSHBUTTON      "Cancel",IDCANCEL,171,170,40,14
+    LTEXT           "Red",IDC_STATIC,15,33,14,8
+    LTEXT           "Green",IDC_STATIC,15,47,20,8
+    LTEXT           "Blue",IDC_STATIC,15,60,14,8
+    LTEXT           "Item",IDC_STATIC,15,19,16,8
+    GROUPBOX        "Colour Adjustment",IDC_STATIC,7,7,204,71
+    GROUPBOX        "Start-up Configuration",IDC_STATIC,7,80,204,83
+    LTEXT           "Cell Width",IDC_STATIC,120,109,33,8
+    LTEXT           "Cell Height",IDC_STATIC,120,96,35,8
+    LTEXT           "Font Height",IDC_STATIC,120,123,38,8
+    LTEXT           "Font Width",IDC_STATIC,120,137,36,8
+    LTEXT           "Image Size",IDC_STATIC,15,95,36,8
+    CONTROL         "",ODR_COLOR,"Static",SS_OWNERDRAW | SS_SUNKEN | WS_BORDER,160,33,41,39,WS_EX_STATICEDGE
+    COMBOBOX        CBO_CFG_IMGYSIZE,67,106,42,78,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "X",IDC_STATIC,58,109,9,9
+END
+
+DLG_PREVIEW DIALOGEX 0, 0, 550, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",CMD_OK,489,232,50,14
+    EDITTEXT        TXT_PREVIEW,7,200,470,45,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "Clear",CMD_TEST_CLEAR,489,200,50,14
+    DEFPUSHBUTTON   "Pangram",CMD_TEST_PANGRAM,489,216,50,14
+    CONTROL         "",IDC_GL,"Static",SS_OWNERDRAW | SS_SUNKEN,6,7,537,181,WS_EX_STATICEDGE
+END
+
+DLG_SPLASH DIALOGEX 0, 0, 316, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         117,IDB_BITMAP1,"Static",SS_BITMAP | SS_NOTIFY | SS_REALSIZEIMAGE,7,7,303,102
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    DLG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    DLG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 337
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    DLG_SAVEOPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    DLG_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    DLG_PREVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 543
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    DLG_SPLASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MNU_MAIN MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New (Reset)",                 ID_FILE_RESET
+        MENUITEM "Save",                        ID_FILE_SAVEBFF
+        POPUP "Export"
+        BEGIN
+            MENUITEM "Bitmap (BMP)",                ID_EXPORT_BITMAP
+            MENUITEM "Targa (TGA)",                 ID_EXPORT_TARGA
+            MENUITEM "Targa32 (TGA)",               ID_EXPORT_TARGA32
+            MENUITEM "Font Data (CSV)",             ID_EXPORT_FONTDATA
+            MENUITEM "Binary Font Data (DAT)",      ID_EXPORT_BIN
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Show Grid",                   ID_VIEW_SHOWGRID
+        MENUITEM "Show Width Markers",          ID_VIEW_WIDTHMARKERS
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom In\t+",                  ID_VIEW_ZOOMIN
+        MENUITEM "Zoom Out\t-",                 ID_VIEW_ZOOMOUT
+    END
+    POPUP "Font"
+    BEGIN
+        POPUP "AntiAlias"
+        BEGIN
+            MENUITEM "None",                        ID_ANTIALIAS_NONE, CHECKED
+            MENUITEM "Normal",                      ID_ANTIALIAS_NORMAL
+            MENUITEM "ClearType (XP Only)",         ID_ANTIALIAS_CLEARTYPE
+        END
+        POPUP "Colour"
+        BEGIN
+            MENUITEM "Set Text Colour",             ID_COLOUR_SETTEXTCOLOUR
+            MENUITEM "Set Background Colour",       ID_COLOUR_SETBACKGROUNDCOLOUR
+        END
+    END
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Preview",                     ID_TOOLS_PREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Configuration",               ID_TOOLS_CONFIGURATION
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Contents",                    ID_HELP_CONTENTS
+        MENUITEM "About",                       ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BFG_LOGO                BITMAP                  "BFG2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,4,4,0
+ PRODUCTVERSION 1,4,4,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "CompanyName", "Codehead Software"
+            VALUE "FileDescription", "Codehead's Bitmap Font Generator"
+            VALUE "FileVersion", "1.4.4.0"
+            VALUE "InternalName", " CBFG"
+            VALUE "LegalCopyright", "Copyright © Codehead 2005 - 2012 - Freely Distributable"
+            VALUE "OriginalFilename", "CBFG.exe"
+            VALUE "ProductName", "CBFG"
+            VALUE "ProductVersion", "1.4.4.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
