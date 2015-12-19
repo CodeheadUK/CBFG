@@ -25,3 +25,6 @@ CBFG is a tool I developed to help with my OpenGL projects. It generates bitmap 
 ### Open Release
 I haven't updated the tool for a good while, but I still get plenty of email about it from people who find it useful, which is nice. However, some of those people want new features which I just don't have time to add. So, I'm releasing the code under the BSD 3-clause licence so that people can hack on the code and add the features they need.
 
+### Binaries
+Pre-built binaries are available at my site: http://www.codehead.co.uk/cbfg/
+
