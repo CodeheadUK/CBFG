@@ -169,6 +169,8 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\LICENCE" />
+    <None Include="..\README.md" />
     <None Include="BFG2.bmp" />
     <None Include="ico_up.ico" />
     <None Include="ico_down.ico" />
@@ -178,10 +180,6 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Script1.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="LICENCE" />
-    <Text Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

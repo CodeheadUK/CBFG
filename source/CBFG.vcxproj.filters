@@ -97,14 +97,12 @@
     <None Include="AppIcon.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\README.md" />
+    <None Include="..\LICENCE" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Script1.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="LICENCE" />
-    <Text Include="README.md" />
   </ItemGroup>
 </Project>
