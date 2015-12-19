@@ -2,11 +2,13 @@
 
 CBFG is a tool I developed to help with my OpenGL projects. It generates bitmap font textures with kerning information so that reasonably pretty, variable width text can be displayed in OpenGL applications.
 
+![](docs/media/CBFG_Grab.jpg?raw=true)
+
 ### Features
 
 - DIB rendering of font gives best font output, regardless of users screen settings
 - Global or per character position and width adjustment
-- Texture Sizes from 16×16 up to 4096×4096
+- Texture Sizes from 16Ã—16 up to 4096Ã—4096
 - Zoom up to 400% for accurate tweaking of character positions
 - Anti-aliasing or ClearType (Win XP and up) for smoother looking fonts
 - Control of font width
