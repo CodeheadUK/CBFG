@@ -2,7 +2,6 @@
 //
 #include "resource.h"
 #include "winres.h"
-
 /////////////////////////////////////////////////////////////////////////////
 // English (United States) resources
 
@@ -353,8 +352,8 @@ BFG_LOGO                BITMAP                  "BFG2.bmp"
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,4,4,0
- PRODUCTVERSION 1,4,4,0
+ FILEVERSION 1,4,5,0
+ PRODUCTVERSION 1,4,5,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -371,12 +370,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Codehead Software"
             VALUE "FileDescription", "Codehead's Bitmap Font Generator"
-            VALUE "FileVersion", "1.4.4.0"
+            VALUE "FileVersion", "1.4.5.0"
             VALUE "InternalName", " CBFG"
-            VALUE "LegalCopyright", "Copyright © Codehead 2005 - 2012 - Freely Distributable"
+            VALUE "LegalCopyright", "Copyright © Codehead 2005 - 2015 - BSD Licence (3 clause)"
             VALUE "OriginalFilename", "CBFG.exe"
             VALUE "ProductName", "CBFG"
-            VALUE "ProductVersion", "1.4.4.0"
+            VALUE "ProductVersion", "1.4.5.0"
         END
     END
     BLOCK "VarFileInfo"
