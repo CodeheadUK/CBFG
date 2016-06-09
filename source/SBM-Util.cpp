@@ -73,7 +73,7 @@ int SBM_Image::Load(char* filename)
   // Open the specified file
   In.open(filename,ios::binary);
     
-   if(In==NULL)
+   if(!In)
     return SBM_ERR_NO_FILE;
 
   // Get file size
