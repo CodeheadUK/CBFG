@@ -28,3 +28,6 @@ I haven't updated the tool for a good while, but I still get plenty of email abo
 ### Binaries
 Pre-built binaries are available at my site: http://www.codehead.co.uk/cbfg/
 
+### Notable Projects
+Fellow Github member [Flarn2006](https://github.com/flarn2006) has used CBFG in his [SF2DBmpFont](https://github.com/flarn2006/SF2DBmpFont) project
+
