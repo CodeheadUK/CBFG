@@ -29,5 +29,6 @@ I haven't updated the tool for a good while, but I still get plenty of email abo
 Pre-built binaries are available at my site: http://www.codehead.co.uk/cbfg/
 
 ### Notable Projects
-Fellow Github member [Flarn2006](https://github.com/flarn2006) has used CBFG in his [SF2DBmpFont](https://github.com/flarn2006/SF2DBmpFont) project
+[Gabriele Giuseppini](https://github.com/GabrieleGiuseppini) is using CBFG in his [Floating Sandbox](https://github.com/GabrieleGiuseppini/Floating-Sandbox)
+[Flarn2006](https://github.com/flarn2006) has used CBFG in his [SF2DBmpFont](https://github.com/flarn2006/SF2DBmpFont) project
 
