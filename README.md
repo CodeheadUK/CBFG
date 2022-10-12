@@ -31,5 +31,5 @@ Pre-built binaries are available at my site: http://www.codehead.co.uk/cbfg/
 ### Notable Projects
 [Gabriele Giuseppini](https://github.com/GabrieleGiuseppini) is using CBFG in his [Floating Sandbox](https://github.com/GabrieleGiuseppini/Floating-Sandbox)
 
-[Flarn2006](https://github.com/flarn2006) has used CBFG in his [SF2DBmpFont](https://github.com/flarn2006/SF2DBmpFont) project
+[Flarn2006](https://github.com/flarn2006) has used CBFG in her [SF2DBmpFont](https://github.com/flarn2006/SF2DBmpFont) project
 
